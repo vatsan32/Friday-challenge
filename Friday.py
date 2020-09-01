@@ -2,7 +2,6 @@
 
 import re
 import json
-import sys
 import os
 
 
@@ -53,7 +52,6 @@ lines = file1.readlines()
 for line in lines:
 	input_line = line.replace('"', '').strip() ##--> replacing the " with '
 	print("Street name and number is-->",input_line)
-	### ---> Check if json file exists, if it does, don't write, if it doesn't then create and write into file.
 	input_string(input_line)
 	
 	
