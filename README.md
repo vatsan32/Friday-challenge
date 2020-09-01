@@ -31,8 +31,14 @@ Example:
 
 ## Methodology  
 We will be using the Python's in-built RegEx `re` module (`import re`) to complete the task. Basically we are looking to find common patterns that exist in street names and house numbers, which can then be used to create a RegEx expression. We can then compile the expression and search the input string for the street address and house numbers separately. 
+An additional case is also shown, wherein, if no housenumber is provided, the program prints out `NO HOUSE NUMBER!` as the output in the housenumber variable in the JSON file. 
 
-The program `Friday.py` executes the `input_string()` function, which requires a string (eg. "Winterallee 3") as input. The function finds
+## How to run
+python Friday.py --> which will prompt the user to enter the path of the filename with all the street names and housenumbers. 
+`Enter the path of your file: [ENTER THE PATH OF THE FILE NAME HERE]`
+
+## Example files
+I have created two `.txt` files. File `/input_output/Friday_examples.txt` contains all the examples of street names and house numbers given in the default challenge. The second file `/input_output/my_own_examples.txt` has few street names and house numbers apart from the above default examples. There is also one example without a street number. 
 
 ## Required modules
 All the modules used in this examples are Python built-in modules. 
