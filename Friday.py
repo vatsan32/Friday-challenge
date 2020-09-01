@@ -5,9 +5,6 @@ import json
 import os
 
 
-"""  
-We will be using 
-"""
 def input_string(string):
 	"""  
 	Given the input string, tries to separate them into "street" & "housenumber" variables
